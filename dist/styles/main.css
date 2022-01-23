@@ -964,6 +964,9 @@ html.has-scroll-dragging {
     .logo{
       transform: scale(1.2);
     }
+     .c-header{
+      height: 100vh;
+    }
     #logo img{
       border: none;
      
