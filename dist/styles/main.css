@@ -816,7 +816,7 @@ h6, .o-h6 {
    }
 
 .o-title {
-   color: rgb(37, 34, 52, 0.8);
+  color: rgba(52, 48, 71, 0.8);
   overflow: hidden;
   margin: 0;
   padding: 2.5rem 0;
