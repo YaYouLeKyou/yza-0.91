@@ -816,7 +816,7 @@ h6, .o-h6 {
    }
 
 .o-title {
-  color: rgba(52, 48, 71, 0.8);
+  color: rgba(63, 58, 90, 0.8);
   overflow: hidden;
   margin: 0;
   padding: 2.5rem 0;
@@ -957,7 +957,18 @@ html.has-scroll-dragging {
   @media (max-width: 699px) {
     .c-header {
       height: 50vh;
-      min-height: 340px; } }
+      min-height: 340px; }
+    #background-video{
+      border: none !important;
+    }
+    .logo{
+      transform: scale(1.2);
+    }
+    #logo img{
+      border: none;
+     
+    }
+  }
   @media (min-width: 700px) and (max-width: 999px) {
     .c-header {
       height: 80vh;
