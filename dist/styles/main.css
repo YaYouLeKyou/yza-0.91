@@ -811,7 +811,9 @@ h6, .o-h6 {
 
 .o-scroll {
   background: #000000;
-  overflow: hidden; }
+  overflow: hidden;
+  
+   }
 
 .o-title {
   color: rgba(18, 18, 53, 0.8);
@@ -2262,7 +2264,8 @@ backdrop-filter: blur(10px);
  border: steelblue solid 2px;
     position: relative;
     top: 200px !important;
-
+    width: 80%;
+    height: 600px;
     left: 50% !important;
     transform: translateX(-50%) !important;
     border-radius: 25px;
@@ -2270,6 +2273,19 @@ backdrop-filter: blur(10px);
     opacity: 0.5;
     transition: all 1s ease;
     filter: blur(2px);
+}
+.youtube:hover{
+ border: steelblue solid 2px;
+    position: relative;
+    top: 200px !important;
+
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    border-radius: 25px;
+    border-color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    transition: all 1s ease;
+    filter: blur(0);
 }
 
 
@@ -2323,7 +2339,9 @@ backdrop-filter: blur(10px);
 
 }
 #mask{
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   position:relative;
-  z-index: -1;
+  z-index: 1;
 }
+
